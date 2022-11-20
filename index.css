@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Syne Mono', monospace;
+}
+
+body{
+   
+     background-image: url('https://static.vecteezy.com/system/resources/previews/002/099/700/non_2x/mountain-beautiful-landscape-background-design-illustration-free-vector.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;   
+    background-attachment: fixed;
+      
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container-one{
+       
+       display: flex;
+       justify-content: flex-end;
+}
+
+#mode-btn{
+    
+    border: 2px solid rgb(30, 28, 28);
+    border-radius: 20px;
+    padding: 2px;
+    margin: 20px ;
+   
+}
+
+li{
+  margin: 20px;
+ font-size: 30px;
+}
+
+#container-two{
+     
+     display: flex;
+     flex-direction: column;
+
+}
+
+input[type="text"]{
+   width: 30vw;
+   height: 2vh;
+   font-weight: lighter;
+   font-size: 18px;
+   padding: 8px 15px;
+   overflow: scroll;
+   margin: 5px;
+   border: none;
+   border-radius:8px;
+   
+}
+
+#add-btn{
+    padding: 8px;
+    margin: 10px;
+    background-color: rgb(245, 243, 241);
+    border: none;
+    border-radius: 10px;
+    width:fit-content;
+    opacity: 0.8;
+}
+
+#clock{
+    border: none;
+    width: 30vw;
+    height: 30vh;
+    position: sticky;
+    top: 30px;
+    text-align: center;
+    margin: 80px 90px; 
+    font-size: 4vw;
+    opacity: 0.4;
+}
